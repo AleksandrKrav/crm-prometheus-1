@@ -1,13 +1,190 @@
-<!DOCTYPE web-app PUBLIC
- "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
- "http://java.sun.com/dtd/web-app_2_3.dtd" >
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0">
 
-<web-app>
+
     <display-name>CRM Web Application</display-name>
+
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>
+            /WEB-INF/application-context.xml;
+            <!--resources/Context.xml-->
+        </param-value>
+    </context-param>
+
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+
+    <filter>
+        <filter-name>springSecurityFilterChain</filter-name>
+        <filter-class>
+            org.springframework.web.filter.DelegatingFilterProxy
+        </filter-class>
+    </filter>
+
+    <filter>
+        <filter-name>encoding-filter</filter-name>
+        <filter-class>
+            org.springframework.web.filter.CharacterEncodingFilter
+        </filter-class>
+        <init-param>
+            <param-name>encoding</param-name>
+            <param-value>UTF-8</param-value>
+        </init-param>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>encoding-filter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <filter-mapping>
+        <filter-name>springSecurityFilterChain</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
 
 
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
 
+    <!--<filter>-->
+        <!--<filter-name>CharsetFilter</filter-name>-->
+        <!--<filter-class>com.becomejavasenior.filters.CharsetFilter</filter-class>-->
+        <!--<init-param>-->
+            <!--<param-name>requestEncoding</param-name>-->
+            <!--<param-value>UTF-8</param-value>-->
+        <!--</init-param>-->
+    <!--</filter>-->
+
+    <!--<filter-mapping>-->
+        <!--<filter-name>CharsetFilter</filter-name>-->
+        <!--<url-pattern>/*</url-pattern>-->
+    <!--</filter-mapping>-->
+
+    <servlet>
+        <servlet-name>funnelOfDeals</servlet-name>
+        <servlet-class>com.becomejavasenior.servlets.FunnelOfDealsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>funnelOfDeals</servlet-name>
+        <url-pattern>/funnel_of_deals</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>header</servlet-name>
+        <servlet-class>com.becomejavasenior.servlets.HeaderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>header</servlet-name>
+        <url-pattern>/header</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Registration</servlet-name>
+        <servlet-class>com.becomejavasenior.servlets.RegistrationServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Registration</servlet-name>
+        <url-pattern>/registr</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addCompanyServlet</servlet-name>
+        <servlet-class>com.becomejavasenior.servlets.AddCompanyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addCompanyServlet</servlet-name>
+        <url-pattern>/addCompany</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>initAddTaskServlet</servlet-name>
+        <servlet-class>com.becomejavasenior.servlets.InitAddTaskServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>initAddTaskServlet</servlet-name>
+        <url-pattern>/initAddTask</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addTaskServlet</servlet-name>
+        <servlet-class>com.becomejavasenior.servlets.AddTaskServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addTaskServlet</servlet-name>
+        <url-pattern>/addTask</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>initAddContactServlet</servlet-name>
+        <servlet-class>com.becomejavasenior.servlets.InitAddContactServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>initAddContactServlet</servlet-name>
+        <url-pattern>/initAddContact</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>addContactServlet</servlet-name>
+        <servlet-class>com.becomejavasenior.servlets.AddContactServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addContactServlet</servlet-name>
+        <url-pattern>/addContact</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>userAuth</servlet-name>
+        <servlet-class>com.becomejavasenior.servlets.UserAuthServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>userAuth</servlet-name>
+        <url-pattern>/userAuth</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>dataUserServlet</servlet-name>
+        <servlet-class>com.becomejavasenior.servlets.DataUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>dataUserServlet</servlet-name>
+        <url-pattern>/dataUser</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>logoutUserServlet</servlet-name>
+        <servlet-class>com.becomejavasenior.servlets.LogoutUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>logoutUserServlet</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+
+    <filter>
+        <filter-name>RegistrationFilter</filter-name>
+        <filter-class>com.becomejavasenior.filters.ValidRegistrationFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>RegistrationFilter</filter-name>
+        <servlet-name>Registration</servlet-name>
+        <servlet-name>UserAdd</servlet-name>
+    </filter-mapping>
+
+    <!--<filter>-->
+        <!--<filter-name>AuthentificationFilter</filter-name>-->
+        <!--<filter-class>com.becomejavasenior.filters.AuthentificationFilter</filter-class>-->
+    <!--</filter>-->
+    <!--<filter-mapping>-->
+        <!--<filter-name>AuthentificationFilter</filter-name>-->
+        <!--<url-pattern>*.jsp</url-pattern>-->
+        <!--<url-pattern>/funnel_of_deals</url-pattern>-->
+        <!--<url-pattern>/list_of_companies</url-pattern>-->
+        <!--<url-pattern>/initAddContact</url-pattern>-->
+        <!--<url-pattern>/initAddTask</url-pattern>-->
+    <!--</filter-mapping>-->
 </web-app>

@@ -1,0 +1,12 @@
+# Ignore everything in this directory
+Main.java
+.idea
+*.iml
+controller/controller.iml
+controller/target/
+dao/target
+model/target
+service/target
+security/target
+# Except this file
+!.gitignore

@@ -1,0 +1,12 @@
+
+<Context>
+    <!-- JNDI-DataSoutce -->
+    <Resource name="jdbc/UsersDB"
+              auth="Container"
+              type="javax.sql.DataSource"
+              driverClassName="org.postgresql.Driver"
+              username="postgres"
+              password="postgres"
+              url="jdbc:postgresql://localhost:5432/crm-prometheus"
+            />
+</Context>

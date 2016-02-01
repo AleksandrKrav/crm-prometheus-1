@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+    <context:component-scan base-package="com.becomejavasenior"/>
+
+    <context:annotation-config />
+    <!--&lt;!&ndash; Initialization for data source &ndash;&gt;-->
+    <bean id="dataSource"
+          class="org.springframework.jdbc.datasource.DriverManagerDataSource" >
+        <property name="driverClassName" value="org.postgresql.Driver"/>
+        <property name="url" value="jdbc:postgresql://localhost:5432/crm-prometheus"/>
+        <property name="username" value="postgres"/>
+        <property name="password" value="postgres"/>
+    </bean>
+
+    <!--&lt;!&ndash; Initialization for data source Heroku&ndash;&gt;-->
+    <!--<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">-->
+        <!--<property name="url"-->
+                  <!--value="jdbc:postgresql://ec2-54-217-231-152.eu-west-1.compute.amazonaws.com:5432/dad9g541rmq8l9"/>-->
+        <!--<property name="username" value="wgjoiepjivksge"/>-->
+        <!--<property name="password" value="L2KuoKfYO6DqwFVhNrafBWUkPo"/>-->
+    <!--</bean>-->
+
+
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+
+    <bean id="transactionManager"
+          class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
+    <!-- Definition for DashboardJDBCTemplate bean -->
+    <bean id="dashboardJDBCTemplate"
+          class="com.becomejavasenior.JDBCTemplate.DashboardJDBCTemplate">
+        <property name="dataSource"  ref="dataSource" />
+    </bean>
+
+
+    <bean id="userDao" class="com.becomejavasenior.impl.UserDaoImpl">
+        <constructor-arg ref="dataSource"/>
+    </bean>
+
+    <!--<bean id="userService" class="com.becomejavasenior.impl.UserServiceImpl">-->
+    <!--</bean>-->
+
+    <bean id="userRightsJDBCTemplate" class="com.becomejavasenior.JDBCTemplate.UserRightsJDBCTemplate">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!--<bean id="user1" class="com.becomejavasenior.service.UserDetailsServiceImpl">-->
+    <!--</bean>-->
+
+</beans>

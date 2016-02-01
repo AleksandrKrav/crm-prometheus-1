@@ -1,0 +1,18 @@
+.nav{
+    max-height: 300px;
+    overflow-y:scroll;
+
+}
+.sidebar-nav{
+    width: 500px;
+    max-width: 400px;
+
+}
+
+.field-company{
+    min-height: 600px;
+}
+
+.field-task{
+    min-height: 600px;
+}

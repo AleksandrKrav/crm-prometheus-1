@@ -1,0 +1,387 @@
+19:16:43,524 ERROR main DealDaoImpl:create:45 - Error with create in DealDaoImpl
+19:23:50,366 ERROR DealDaoImpl:create:45 - Error with create in DealDaoImpl
+00:14:49,484  INFO DaoFactoryImpl:setProperties:60 - Read dao.properties file
+00:14:49,492  WARN DaoFactoryImpl:setProperties:62 - ClassLoader reads dao.properties and give data to inputStream
+00:14:49,616  INFO DaoFactoryImpl:getConnection:35 - getting connection from DB
+00:14:49,626  WARN DaoFactoryImpl:getConnection:36 - set url, user, password parameters
+00:14:50,682  INFO DaoFactoryImpl:getDealDao:42 - give connection to DealDaoImpl
+00:14:50,714  INFO DealDaoImpl:create:30 - created sql request for create DealDaoImpl record
+00:14:50,716  WARN DealDaoImpl:create:35 - Give sql to prepared statement
+00:14:51,055 ERROR DealDaoImpl:create:47 - Error with create in DealDaoImpl
+17:35:03,300  INFO DaoFactoryImpl:setProperties:82 - Enter to setProperties()
+17:35:03,376  WARN DaoFactoryImpl:setProperties:84 - Read properties to InputStream
+17:35:03,377  WARN DaoFactoryImpl:setProperties:86 - Load strings to properties
+17:35:03,378  INFO DaoFactoryImpl:<init>:23 - Enter to DaoFactoryImpl()
+17:35:03,379  WARN DaoFactoryImpl:<init>:25 - Rigister driver
+17:35:03,392  INFO DaoFactoryImpl:getConnection:35 - Enter to getConnection()
+17:35:03,393  WARN DaoFactoryImpl:getConnection:36 - Getting connection from DriverManager
+17:35:03,684  INFO DaoFactoryImpl:closeConnection:42 - Enter to closeConnection()
+17:35:03,684  WARN DaoFactoryImpl:closeConnection:44 - Check connection for null
+17:42:04,602  INFO DaoFactoryImpl:setProperties:82 - Enter to setProperties()
+17:42:04,611  WARN DaoFactoryImpl:setProperties:84 - Read properties to InputStream
+17:42:04,612  WARN DaoFactoryImpl:setProperties:86 - Load strings to properties
+17:42:04,614  INFO DaoFactoryImpl:<init>:23 - Enter to DaoFactoryImpl()
+17:42:04,615  WARN DaoFactoryImpl:<init>:25 - Rigister driver
+17:42:04,716  INFO DaoFactoryImpl:getConnection:35 - Enter to getConnection()
+17:42:04,716  WARN DaoFactoryImpl:getConnection:36 - Getting connection from DriverManager
+17:42:05,083  INFO DaoFactoryImpl:closeConnection:42 - Enter to closeConnection()
+17:42:05,084  WARN DaoFactoryImpl:closeConnection:44 - Check connection for null
+17:45:17,869  INFO DaoFactoryImpl:setProperties:82 - Enter to setProperties()
+17:45:17,879  WARN DaoFactoryImpl:setProperties:84 - Read properties to InputStream
+17:45:17,880  WARN DaoFactoryImpl:setProperties:86 - Load strings to properties
+17:45:17,887  INFO DaoFactoryImpl:<init>:23 - Enter to DaoFactoryImpl()
+17:45:17,888  WARN DaoFactoryImpl:<init>:25 - Rigister driver
+17:45:17,925  INFO DaoFactoryImpl:getConnection:35 - Enter to getConnection()
+17:45:17,925  WARN DaoFactoryImpl:getConnection:36 - Getting connection from DriverManager
+17:45:18,214  INFO DaoFactoryImpl:closeConnection:42 - Enter to closeConnection()
+17:45:18,214  WARN DaoFactoryImpl:closeConnection:44 - Check connection for null
+17:52:44,843  INFO DaoFactoryImpl:setProperties:82 - Enter to setProperties()
+17:52:44,865  WARN DaoFactoryImpl:setProperties:84 - Read properties to InputStream
+17:52:44,865  WARN DaoFactoryImpl:setProperties:86 - Load strings to properties
+17:52:44,868  INFO DaoFactoryImpl:<init>:23 - Enter to DaoFactoryImpl()
+17:52:44,868  WARN DaoFactoryImpl:<init>:25 - Rigister driver
+17:52:45,022  INFO DaoFactoryImpl:getConnection:35 - Enter to getConnection()
+17:52:45,022  WARN DaoFactoryImpl:getConnection:36 - Getting connection from DriverManager
+17:52:45,521  INFO DaoFactoryImpl:closeConnection:42 - Enter to closeConnection()
+17:52:45,522  WARN DaoFactoryImpl:closeConnection:44 - Check connection for null
+17:55:20,025  INFO DaoFactoryImpl:setProperties:82 - Enter to setProperties()
+17:55:20,033  WARN DaoFactoryImpl:setProperties:84 - Read properties to InputStream
+17:55:20,034  WARN DaoFactoryImpl:setProperties:86 - Load strings to properties
+17:55:20,036  INFO DaoFactoryImpl:<init>:23 - Enter to DaoFactoryImpl()
+17:55:20,037  WARN DaoFactoryImpl:<init>:25 - Rigister driver
+17:55:20,074  INFO DaoFactoryImpl:getConnection:35 - Enter to getConnection()
+17:55:20,080  WARN DaoFactoryImpl:getConnection:36 - Getting connection from DriverManager
+17:55:20,256  INFO DaoFactoryImpl:closeConnection:42 - Enter to closeConnection()
+17:55:20,256  WARN DaoFactoryImpl:closeConnection:44 - Check connection for null
+17:57:20,397  INFO DaoFactoryImpl:setProperties:82 - Enter to setProperties()
+17:57:20,406  WARN DaoFactoryImpl:setProperties:84 - Read properties to InputStream
+17:57:20,407  WARN DaoFactoryImpl:setProperties:86 - Load strings to properties
+17:57:20,409  INFO DaoFactoryImpl:<init>:23 - Enter to DaoFactoryImpl()
+17:57:20,409  WARN DaoFactoryImpl:<init>:25 - Rigister driver
+17:57:20,460  INFO DaoFactoryImpl:getConnection:35 - Enter to getConnection()
+17:57:20,460  WARN DaoFactoryImpl:getConnection:36 - Getting connection from DriverManager
+17:57:20,668  INFO DaoFactoryImpl:closeConnection:42 - Enter to closeConnection()
+17:57:20,669  WARN DaoFactoryImpl:closeConnection:44 - Check connection for null
+18:01:09,329  INFO DaoFactoryImpl:setProperties:82 - Enter to setProperties()
+18:01:09,344  WARN DaoFactoryImpl:setProperties:84 - Read properties to InputStream
+18:01:09,345  WARN DaoFactoryImpl:setProperties:86 - Load strings to properties
+18:01:09,354  INFO DaoFactoryImpl:<init>:23 - Enter to DaoFactoryImpl()
+18:01:09,354  WARN DaoFactoryImpl:<init>:25 - Rigister driver
+18:01:09,396  INFO DaoFactoryImpl:getConnection:35 - Enter to getConnection()
+18:01:09,396  WARN DaoFactoryImpl:getConnection:36 - Getting connection from DriverManager
+18:01:09,598  INFO DaoFactoryImpl:closeConnection:42 - Enter to closeConnection()
+18:01:09,599  WARN DaoFactoryImpl:closeConnection:44 - Check connection for null
+18:01:47,706  INFO DaoFactoryImpl:setProperties:82 - Enter to setProperties()
+18:01:47,735  WARN DaoFactoryImpl:setProperties:84 - Read properties to InputStream
+18:01:47,736  WARN DaoFactoryImpl:setProperties:86 - Load strings to properties
+18:01:47,738  INFO DaoFactoryImpl:<init>:23 - Enter to DaoFactoryImpl()
+18:01:47,739  WARN DaoFactoryImpl:<init>:25 - Rigister driver
+18:01:47,791  INFO DaoFactoryImpl:getConnection:35 - Enter to getConnection()
+18:01:47,792  WARN DaoFactoryImpl:getConnection:36 - Getting connection from DriverManager
+18:01:48,372  INFO AbstractJDBCDao:getAll:103 - Enter to getAll()
+18:01:48,372  WARN AbstractJDBCDao:getAll:105 - Execute getSelectQuery()
+18:01:48,373  WARN DealDaoImpl:getSelectQuery:22 - For Deal
+18:01:48,373  WARN AbstractJDBCDao:getAll:107 - Use prepared statement
+18:01:48,509  WARN AbstractJDBCDao:getAll:109 - Executing statement query
+18:01:48,929  INFO DealDaoImpl:parseResultSet:48 - Enter to parseResultSet()
+18:01:48,930  WARN DealDaoImpl:parseResultSet:51 - Input data from DB
+18:01:48,956  INFO DealDaoImpl:readDealStatus:142 - created sql request for readDealStatus to DealDaoImpl record
+18:01:48,956  WARN DealDaoImpl:readDealStatus:145 - Give sql to prepared statement
+18:01:49,161  INFO DealDaoImpl:readCurrency:122 - created sql request for readCurrency to DealDaoImpl record
+18:01:49,162  WARN DealDaoImpl:readCurrency:125 - Give sql to prepared statement
+18:01:50,023  INFO AbstractJDBCDao:getComments:210 - Enter to getComments()
+18:01:50,023  WARN AbstractJDBCDao:getComments:212 - getSqlSelectQuery()
+18:01:50,162  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:01:50,162  WARN AbstractJDBCDao:getSqlSelectQuery:47 - Get Comment query
+18:01:50,163  WARN AbstractJDBCDao:getComments:214 - Use prepared statement
+18:01:50,165  WARN AbstractJDBCDao:getComments:218 - Executing statement query
+18:01:50,496  INFO AbstractJDBCDao:getFiles:179 - Enter to getFiles()
+18:01:50,497  WARN AbstractJDBCDao:getFiles:181 - getSqlSelectQuery()
+18:01:50,554  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:01:50,555  WARN AbstractJDBCDao:getSqlSelectQuery:40 - Get File query
+18:01:50,556  WARN AbstractJDBCDao:getFiles:183 - Use prepared statement
+18:01:50,556  WARN AbstractJDBCDao:getFiles:187 - Executing statement query
+18:01:50,786  INFO AbstractJDBCDao:getTags:240 - Enter to getTags()
+18:01:50,787  WARN AbstractJDBCDao:getTags:242 - getSqlSelectQuery()
+18:01:50,811  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:01:50,812  WARN AbstractJDBCDao:getSqlSelectQuery:54 - Get Tag query
+18:01:50,831  WARN AbstractJDBCDao:getTags:244 - Use prepared statement
+18:01:50,832  WARN AbstractJDBCDao:getTags:248 - Executing statement query
+18:01:51,786  INFO AbstractJDBCDao:getTags:240 - Enter to getTags()
+18:01:51,786  WARN AbstractJDBCDao:getTags:242 - getSqlSelectQuery()
+18:01:51,786  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:01:51,787  WARN AbstractJDBCDao:getSqlSelectQuery:54 - Get Tag query
+18:01:51,787  WARN AbstractJDBCDao:getTags:244 - Use prepared statement
+18:01:51,787  WARN AbstractJDBCDao:getTags:248 - Executing statement query
+18:01:51,825  INFO AbstractJDBCDao:getFiles:179 - Enter to getFiles()
+18:01:51,825  WARN AbstractJDBCDao:getFiles:181 - getSqlSelectQuery()
+18:01:51,825  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:01:51,829  WARN AbstractJDBCDao:getSqlSelectQuery:40 - Get File query
+18:01:51,830  WARN AbstractJDBCDao:getFiles:183 - Use prepared statement
+18:01:51,831  WARN AbstractJDBCDao:getFiles:187 - Executing statement query
+18:01:51,942  INFO AbstractJDBCDao:getComments:210 - Enter to getComments()
+18:01:51,942  WARN AbstractJDBCDao:getComments:212 - getSqlSelectQuery()
+18:01:51,942  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:01:51,943  WARN AbstractJDBCDao:getSqlSelectQuery:47 - Get Comment query
+18:01:51,943  WARN AbstractJDBCDao:getComments:214 - Use prepared statement
+18:01:51,943  WARN AbstractJDBCDao:getComments:218 - Executing statement query
+18:01:51,989  INFO AbstractJDBCDao:getPhones:145 - Enter to getPhones()
+18:01:51,990  WARN AbstractJDBCDao:getPhones:147 - getSqlSelectQuery()
+18:01:52,026  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:01:52,027  WARN AbstractJDBCDao:getSqlSelectQuery:32 - Get Phone query
+18:01:52,027  WARN AbstractJDBCDao:getPhones:149 - Use prepared statement
+18:01:52,030  WARN AbstractJDBCDao:getPhones:153 - Executing statement query
+18:01:52,273  INFO AbstractJDBCDao:getPhones:145 - Enter to getPhones()
+18:01:52,274  WARN AbstractJDBCDao:getPhones:147 - getSqlSelectQuery()
+18:01:52,275  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:01:52,275  WARN AbstractJDBCDao:getSqlSelectQuery:32 - Get Phone query
+18:01:52,277  WARN AbstractJDBCDao:getPhones:149 - Use prepared statement
+18:01:52,277  WARN AbstractJDBCDao:getPhones:153 - Executing statement query
+18:01:52,321  INFO AbstractJDBCDao:getComments:210 - Enter to getComments()
+18:01:52,321  WARN AbstractJDBCDao:getComments:212 - getSqlSelectQuery()
+18:01:52,321  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:01:52,322  WARN AbstractJDBCDao:getSqlSelectQuery:47 - Get Comment query
+18:01:52,322  WARN AbstractJDBCDao:getComments:214 - Use prepared statement
+18:01:52,322  WARN AbstractJDBCDao:getComments:218 - Executing statement query
+18:01:52,351  INFO AbstractJDBCDao:getTags:240 - Enter to getTags()
+18:01:52,351  WARN AbstractJDBCDao:getTags:242 - getSqlSelectQuery()
+18:01:52,351  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:01:52,352  WARN AbstractJDBCDao:getSqlSelectQuery:54 - Get Tag query
+18:01:52,352  WARN AbstractJDBCDao:getTags:244 - Use prepared statement
+18:01:52,352  WARN AbstractJDBCDao:getTags:248 - Executing statement query
+18:01:52,396  INFO AbstractJDBCDao:getFiles:179 - Enter to getFiles()
+18:01:52,397  WARN AbstractJDBCDao:getFiles:181 - getSqlSelectQuery()
+18:01:52,397  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:01:52,397  WARN AbstractJDBCDao:getSqlSelectQuery:40 - Get File query
+18:01:52,397  WARN AbstractJDBCDao:getFiles:183 - Use prepared statement
+18:01:52,398  WARN AbstractJDBCDao:getFiles:187 - Executing statement query
+18:01:52,562  INFO DealDaoImpl:readDealStatus:142 - created sql request for readDealStatus to DealDaoImpl record
+18:01:52,562  WARN DealDaoImpl:readDealStatus:145 - Give sql to prepared statement
+18:01:52,563  INFO DealDaoImpl:readCurrency:122 - created sql request for readCurrency to DealDaoImpl record
+18:01:52,564  WARN DealDaoImpl:readCurrency:125 - Give sql to prepared statement
+18:01:52,571  INFO AbstractJDBCDao:getComments:210 - Enter to getComments()
+18:01:52,571  WARN AbstractJDBCDao:getComments:212 - getSqlSelectQuery()
+18:01:52,572  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:01:52,572  WARN AbstractJDBCDao:getSqlSelectQuery:47 - Get Comment query
+18:01:52,573  WARN AbstractJDBCDao:getComments:214 - Use prepared statement
+18:01:52,573  WARN AbstractJDBCDao:getComments:218 - Executing statement query
+18:01:52,576  INFO AbstractJDBCDao:getFiles:179 - Enter to getFiles()
+18:01:52,576  WARN AbstractJDBCDao:getFiles:181 - getSqlSelectQuery()
+18:01:52,576  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:01:52,577  WARN AbstractJDBCDao:getSqlSelectQuery:40 - Get File query
+18:01:52,577  WARN AbstractJDBCDao:getFiles:183 - Use prepared statement
+18:01:52,577  WARN AbstractJDBCDao:getFiles:187 - Executing statement query
+18:01:52,584  INFO AbstractJDBCDao:getTags:240 - Enter to getTags()
+18:01:52,584  WARN AbstractJDBCDao:getTags:242 - getSqlSelectQuery()
+18:01:52,584  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:01:52,584  WARN AbstractJDBCDao:getSqlSelectQuery:54 - Get Tag query
+18:01:52,585  WARN AbstractJDBCDao:getTags:244 - Use prepared statement
+18:01:52,585  WARN AbstractJDBCDao:getTags:248 - Executing statement query
+18:01:52,598  INFO AbstractJDBCDao:getTags:240 - Enter to getTags()
+18:01:52,599  WARN AbstractJDBCDao:getTags:242 - getSqlSelectQuery()
+18:01:52,599  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:01:52,600  WARN AbstractJDBCDao:getSqlSelectQuery:54 - Get Tag query
+18:01:52,600  WARN AbstractJDBCDao:getTags:244 - Use prepared statement
+18:01:52,602  WARN AbstractJDBCDao:getTags:248 - Executing statement query
+18:01:52,604  INFO AbstractJDBCDao:getFiles:179 - Enter to getFiles()
+18:01:52,604  WARN AbstractJDBCDao:getFiles:181 - getSqlSelectQuery()
+18:01:52,605  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:01:52,606  WARN AbstractJDBCDao:getSqlSelectQuery:40 - Get File query
+18:01:52,606  WARN AbstractJDBCDao:getFiles:183 - Use prepared statement
+18:01:52,606  WARN AbstractJDBCDao:getFiles:187 - Executing statement query
+18:01:52,609  INFO AbstractJDBCDao:getComments:210 - Enter to getComments()
+18:01:52,609  WARN AbstractJDBCDao:getComments:212 - getSqlSelectQuery()
+18:01:52,610  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:01:52,611  WARN AbstractJDBCDao:getSqlSelectQuery:47 - Get Comment query
+18:01:52,611  WARN AbstractJDBCDao:getComments:214 - Use prepared statement
+18:01:52,611  WARN AbstractJDBCDao:getComments:218 - Executing statement query
+18:01:52,615  INFO AbstractJDBCDao:getPhones:145 - Enter to getPhones()
+18:01:52,615  WARN AbstractJDBCDao:getPhones:147 - getSqlSelectQuery()
+18:01:52,616  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:01:52,616  WARN AbstractJDBCDao:getSqlSelectQuery:32 - Get Phone query
+18:01:52,617  WARN AbstractJDBCDao:getPhones:149 - Use prepared statement
+18:01:52,618  WARN AbstractJDBCDao:getPhones:153 - Executing statement query
+18:01:52,623  INFO AbstractJDBCDao:getPhones:145 - Enter to getPhones()
+18:01:52,623  WARN AbstractJDBCDao:getPhones:147 - getSqlSelectQuery()
+18:01:52,624  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:01:52,624  WARN AbstractJDBCDao:getSqlSelectQuery:32 - Get Phone query
+18:01:52,624  WARN AbstractJDBCDao:getPhones:149 - Use prepared statement
+18:01:52,625  WARN AbstractJDBCDao:getPhones:153 - Executing statement query
+18:01:52,627  INFO AbstractJDBCDao:getComments:210 - Enter to getComments()
+18:01:52,628  WARN AbstractJDBCDao:getComments:212 - getSqlSelectQuery()
+18:01:52,628  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:01:52,628  WARN AbstractJDBCDao:getSqlSelectQuery:47 - Get Comment query
+18:01:52,628  WARN AbstractJDBCDao:getComments:214 - Use prepared statement
+18:01:52,628  WARN AbstractJDBCDao:getComments:218 - Executing statement query
+18:01:52,630  INFO AbstractJDBCDao:getTags:240 - Enter to getTags()
+18:01:52,631  WARN AbstractJDBCDao:getTags:242 - getSqlSelectQuery()
+18:01:52,631  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:01:52,631  WARN AbstractJDBCDao:getSqlSelectQuery:54 - Get Tag query
+18:01:52,631  WARN AbstractJDBCDao:getTags:244 - Use prepared statement
+18:01:52,632  WARN AbstractJDBCDao:getTags:248 - Executing statement query
+18:01:52,634  INFO AbstractJDBCDao:getFiles:179 - Enter to getFiles()
+18:01:52,634  WARN AbstractJDBCDao:getFiles:181 - getSqlSelectQuery()
+18:01:52,634  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:01:52,634  WARN AbstractJDBCDao:getSqlSelectQuery:40 - Get File query
+18:01:52,635  WARN AbstractJDBCDao:getFiles:183 - Use prepared statement
+18:01:52,635  WARN AbstractJDBCDao:getFiles:187 - Executing statement query
+18:01:52,640  INFO DaoFactoryImpl:closeConnection:42 - Enter to closeConnection()
+18:01:52,640  WARN DaoFactoryImpl:closeConnection:44 - Check connection for null
+18:01:52,641  INFO DaoFactoryImpl:closeConnection:47 - connection close
+18:02:24,024  INFO DaoFactoryImpl:setProperties:82 - Enter to setProperties()
+18:02:24,033  WARN DaoFactoryImpl:setProperties:84 - Read properties to InputStream
+18:02:24,034  WARN DaoFactoryImpl:setProperties:86 - Load strings to properties
+18:02:24,036  INFO DaoFactoryImpl:<init>:23 - Enter to DaoFactoryImpl()
+18:02:24,037  WARN DaoFactoryImpl:<init>:25 - Rigister driver
+18:02:24,075  INFO DaoFactoryImpl:getConnection:35 - Enter to getConnection()
+18:02:24,075  WARN DaoFactoryImpl:getConnection:36 - Getting connection from DriverManager
+18:02:24,351  INFO AbstractJDBCDao:getAll:103 - Enter to getAll()
+18:02:24,352  WARN AbstractJDBCDao:getAll:105 - Execute getSelectQuery()
+18:02:24,353  WARN DealDaoImpl:getSelectQuery:22 - For Deal
+18:02:24,353  WARN AbstractJDBCDao:getAll:107 - Use prepared statement
+18:02:24,386  WARN AbstractJDBCDao:getAll:109 - Executing statement query
+18:02:24,417  INFO DealDaoImpl:parseResultSet:48 - Enter to parseResultSet()
+18:02:24,418  WARN DealDaoImpl:parseResultSet:51 - Input data from DB
+18:02:24,438  INFO DealDaoImpl:readDealStatus:142 - created sql request for readDealStatus to DealDaoImpl record
+18:02:24,438  WARN DealDaoImpl:readDealStatus:145 - Give sql to prepared statement
+18:02:24,472  INFO DealDaoImpl:readCurrency:122 - created sql request for readCurrency to DealDaoImpl record
+18:02:24,473  WARN DealDaoImpl:readCurrency:125 - Give sql to prepared statement
+18:02:24,526  INFO AbstractJDBCDao:getComments:210 - Enter to getComments()
+18:02:24,527  WARN AbstractJDBCDao:getComments:212 - getSqlSelectQuery()
+18:02:24,535  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:02:24,536  WARN AbstractJDBCDao:getSqlSelectQuery:47 - Get Comment query
+18:02:24,536  WARN AbstractJDBCDao:getComments:214 - Use prepared statement
+18:02:24,537  WARN AbstractJDBCDao:getComments:218 - Executing statement query
+18:02:24,592  INFO AbstractJDBCDao:getFiles:179 - Enter to getFiles()
+18:02:24,593  WARN AbstractJDBCDao:getFiles:181 - getSqlSelectQuery()
+18:02:24,605  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:02:24,606  WARN AbstractJDBCDao:getSqlSelectQuery:40 - Get File query
+18:02:24,606  WARN AbstractJDBCDao:getFiles:183 - Use prepared statement
+18:02:24,607  WARN AbstractJDBCDao:getFiles:187 - Executing statement query
+18:02:24,638  INFO AbstractJDBCDao:getTags:240 - Enter to getTags()
+18:02:24,638  WARN AbstractJDBCDao:getTags:242 - getSqlSelectQuery()
+18:02:24,648  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:02:24,648  WARN AbstractJDBCDao:getSqlSelectQuery:54 - Get Tag query
+18:02:24,649  WARN AbstractJDBCDao:getTags:244 - Use prepared statement
+18:02:24,650  WARN AbstractJDBCDao:getTags:248 - Executing statement query
+18:02:24,728  INFO AbstractJDBCDao:getTags:240 - Enter to getTags()
+18:02:24,728  WARN AbstractJDBCDao:getTags:242 - getSqlSelectQuery()
+18:02:24,729  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:02:24,729  WARN AbstractJDBCDao:getSqlSelectQuery:54 - Get Tag query
+18:02:24,731  WARN AbstractJDBCDao:getTags:244 - Use prepared statement
+18:02:24,731  WARN AbstractJDBCDao:getTags:248 - Executing statement query
+18:02:24,735  INFO AbstractJDBCDao:getFiles:179 - Enter to getFiles()
+18:02:24,736  WARN AbstractJDBCDao:getFiles:181 - getSqlSelectQuery()
+18:02:24,736  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:02:24,736  WARN AbstractJDBCDao:getSqlSelectQuery:40 - Get File query
+18:02:24,737  WARN AbstractJDBCDao:getFiles:183 - Use prepared statement
+18:02:24,737  WARN AbstractJDBCDao:getFiles:187 - Executing statement query
+18:02:24,740  INFO AbstractJDBCDao:getComments:210 - Enter to getComments()
+18:02:24,741  WARN AbstractJDBCDao:getComments:212 - getSqlSelectQuery()
+18:02:24,741  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:02:24,741  WARN AbstractJDBCDao:getSqlSelectQuery:47 - Get Comment query
+18:02:24,742  WARN AbstractJDBCDao:getComments:214 - Use prepared statement
+18:02:24,742  WARN AbstractJDBCDao:getComments:218 - Executing statement query
+18:02:24,748  INFO AbstractJDBCDao:getPhones:145 - Enter to getPhones()
+18:02:24,748  WARN AbstractJDBCDao:getPhones:147 - getSqlSelectQuery()
+18:02:24,762  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:02:24,763  WARN AbstractJDBCDao:getSqlSelectQuery:32 - Get Phone query
+18:02:24,782  WARN AbstractJDBCDao:getPhones:149 - Use prepared statement
+18:02:24,782  WARN AbstractJDBCDao:getPhones:153 - Executing statement query
+18:02:24,826  INFO AbstractJDBCDao:getPhones:145 - Enter to getPhones()
+18:02:24,826  WARN AbstractJDBCDao:getPhones:147 - getSqlSelectQuery()
+18:02:24,827  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:02:24,827  WARN AbstractJDBCDao:getSqlSelectQuery:32 - Get Phone query
+18:02:24,827  WARN AbstractJDBCDao:getPhones:149 - Use prepared statement
+18:02:24,828  WARN AbstractJDBCDao:getPhones:153 - Executing statement query
+18:02:24,833  INFO AbstractJDBCDao:getComments:210 - Enter to getComments()
+18:02:24,833  WARN AbstractJDBCDao:getComments:212 - getSqlSelectQuery()
+18:02:24,833  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:02:24,834  WARN AbstractJDBCDao:getSqlSelectQuery:47 - Get Comment query
+18:02:24,834  WARN AbstractJDBCDao:getComments:214 - Use prepared statement
+18:02:24,835  WARN AbstractJDBCDao:getComments:218 - Executing statement query
+18:02:24,839  INFO AbstractJDBCDao:getTags:240 - Enter to getTags()
+18:02:24,839  WARN AbstractJDBCDao:getTags:242 - getSqlSelectQuery()
+18:02:24,840  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:02:24,840  WARN AbstractJDBCDao:getSqlSelectQuery:54 - Get Tag query
+18:02:24,840  WARN AbstractJDBCDao:getTags:244 - Use prepared statement
+18:02:24,840  WARN AbstractJDBCDao:getTags:248 - Executing statement query
+18:02:24,844  INFO AbstractJDBCDao:getFiles:179 - Enter to getFiles()
+18:02:24,844  WARN AbstractJDBCDao:getFiles:181 - getSqlSelectQuery()
+18:02:24,845  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:02:24,848  WARN AbstractJDBCDao:getSqlSelectQuery:40 - Get File query
+18:02:24,848  WARN AbstractJDBCDao:getFiles:183 - Use prepared statement
+18:02:24,849  WARN AbstractJDBCDao:getFiles:187 - Executing statement query
+18:02:24,853  INFO DealDaoImpl:readDealStatus:142 - created sql request for readDealStatus to DealDaoImpl record
+18:02:24,854  WARN DealDaoImpl:readDealStatus:145 - Give sql to prepared statement
+18:02:24,856  INFO DealDaoImpl:readCurrency:122 - created sql request for readCurrency to DealDaoImpl record
+18:02:24,856  WARN DealDaoImpl:readCurrency:125 - Give sql to prepared statement
+18:02:24,866  INFO AbstractJDBCDao:getComments:210 - Enter to getComments()
+18:02:24,866  WARN AbstractJDBCDao:getComments:212 - getSqlSelectQuery()
+18:02:24,866  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:02:24,867  WARN AbstractJDBCDao:getSqlSelectQuery:47 - Get Comment query
+18:02:24,867  WARN AbstractJDBCDao:getComments:214 - Use prepared statement
+18:02:24,867  WARN AbstractJDBCDao:getComments:218 - Executing statement query
+18:02:24,879  INFO AbstractJDBCDao:getFiles:179 - Enter to getFiles()
+18:02:24,881  WARN AbstractJDBCDao:getFiles:181 - getSqlSelectQuery()
+18:02:24,885  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:02:24,885  WARN AbstractJDBCDao:getSqlSelectQuery:40 - Get File query
+18:02:24,885  WARN AbstractJDBCDao:getFiles:183 - Use prepared statement
+18:02:24,886  WARN AbstractJDBCDao:getFiles:187 - Executing statement query
+18:02:24,888  INFO AbstractJDBCDao:getTags:240 - Enter to getTags()
+18:02:24,889  WARN AbstractJDBCDao:getTags:242 - getSqlSelectQuery()
+18:02:24,889  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:02:24,889  WARN AbstractJDBCDao:getSqlSelectQuery:54 - Get Tag query
+18:02:24,890  WARN AbstractJDBCDao:getTags:244 - Use prepared statement
+18:02:24,890  WARN AbstractJDBCDao:getTags:248 - Executing statement query
+18:02:24,910  INFO AbstractJDBCDao:getTags:240 - Enter to getTags()
+18:02:24,910  WARN AbstractJDBCDao:getTags:242 - getSqlSelectQuery()
+18:02:24,910  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:02:24,911  WARN AbstractJDBCDao:getSqlSelectQuery:54 - Get Tag query
+18:02:24,911  WARN AbstractJDBCDao:getTags:244 - Use prepared statement
+18:02:24,914  WARN AbstractJDBCDao:getTags:248 - Executing statement query
+18:02:24,917  INFO AbstractJDBCDao:getFiles:179 - Enter to getFiles()
+18:02:24,917  WARN AbstractJDBCDao:getFiles:181 - getSqlSelectQuery()
+18:02:24,917  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:02:24,917  WARN AbstractJDBCDao:getSqlSelectQuery:40 - Get File query
+18:02:24,918  WARN AbstractJDBCDao:getFiles:183 - Use prepared statement
+18:02:24,918  WARN AbstractJDBCDao:getFiles:187 - Executing statement query
+18:02:24,921  INFO AbstractJDBCDao:getComments:210 - Enter to getComments()
+18:02:24,921  WARN AbstractJDBCDao:getComments:212 - getSqlSelectQuery()
+18:02:24,922  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:02:24,922  WARN AbstractJDBCDao:getSqlSelectQuery:47 - Get Comment query
+18:02:24,922  WARN AbstractJDBCDao:getComments:214 - Use prepared statement
+18:02:24,923  WARN AbstractJDBCDao:getComments:218 - Executing statement query
+18:02:24,927  INFO AbstractJDBCDao:getPhones:145 - Enter to getPhones()
+18:02:24,927  WARN AbstractJDBCDao:getPhones:147 - getSqlSelectQuery()
+18:02:24,928  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:02:24,928  WARN AbstractJDBCDao:getSqlSelectQuery:32 - Get Phone query
+18:02:24,928  WARN AbstractJDBCDao:getPhones:149 - Use prepared statement
+18:02:24,929  WARN AbstractJDBCDao:getPhones:153 - Executing statement query
+18:02:24,934  INFO AbstractJDBCDao:getPhones:145 - Enter to getPhones()
+18:02:24,934  WARN AbstractJDBCDao:getPhones:147 - getSqlSelectQuery()
+18:02:24,934  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:02:24,935  WARN AbstractJDBCDao:getSqlSelectQuery:32 - Get Phone query
+18:02:24,935  WARN AbstractJDBCDao:getPhones:149 - Use prepared statement
+18:02:24,935  WARN AbstractJDBCDao:getPhones:153 - Executing statement query
+18:02:24,938  INFO AbstractJDBCDao:getComments:210 - Enter to getComments()
+18:02:24,939  WARN AbstractJDBCDao:getComments:212 - getSqlSelectQuery()
+18:02:24,939  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:02:24,939  WARN AbstractJDBCDao:getSqlSelectQuery:47 - Get Comment query
+18:02:24,940  WARN AbstractJDBCDao:getComments:214 - Use prepared statement
+18:02:24,940  WARN AbstractJDBCDao:getComments:218 - Executing statement query
+18:02:24,944  INFO AbstractJDBCDao:getTags:240 - Enter to getTags()
+18:02:24,944  WARN AbstractJDBCDao:getTags:242 - getSqlSelectQuery()
+18:02:24,945  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:02:24,945  WARN AbstractJDBCDao:getSqlSelectQuery:54 - Get Tag query
+18:02:24,945  WARN AbstractJDBCDao:getTags:244 - Use prepared statement
+18:02:24,945  WARN AbstractJDBCDao:getTags:248 - Executing statement query
+18:02:24,949  INFO AbstractJDBCDao:getFiles:179 - Enter to getFiles()
+18:02:24,949  WARN AbstractJDBCDao:getFiles:181 - getSqlSelectQuery()
+18:02:24,949  INFO AbstractJDBCDao:getSqlSelectQuery:28 - Enter to getSqlSelectQuery()
+18:02:24,949  WARN AbstractJDBCDao:getSqlSelectQuery:40 - Get File query
+18:02:24,950  WARN AbstractJDBCDao:getFiles:183 - Use prepared statement
+18:02:24,950  WARN AbstractJDBCDao:getFiles:187 - Executing statement query
+18:02:24,953  INFO DaoFactoryImpl:closeConnection:42 - Enter to closeConnection()
+18:02:24,954  WARN DaoFactoryImpl:closeConnection:44 - Check connection for null
+18:02:24,954  INFO DaoFactoryImpl:closeConnection:47 - connection close

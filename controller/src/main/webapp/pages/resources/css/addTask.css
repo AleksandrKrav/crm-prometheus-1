@@ -1,0 +1,27 @@
+#mainLabelEl {
+    padding-left: 200px;
+}
+.row #selEl {
+    padding-left: 200px;
+}
+.row #selEl h1,h2,h3,h4,h5,h6 {
+    padding-top: 2px;
+}
+#commentEl {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+#commentEl textarea{
+    width: 400px;
+    height: 400px;
+    resize: none;
+    margin-bottom: 10px;
+}
+#commentEl h1,h2,h3,h4,h5,h6 {
+    padding-top: 2px;
+}
+#commentEl button {
+    width: 120px;
+    height: 30px;
+
+}
