@@ -36,7 +36,7 @@
 [Скрипт начального заполнения БД] (https://crm-prometheus.atlassian.net/browse/CRMPROM-159)
 
 ___
-**Wiki editor1**
+**Wiki editor**
 
 [Markdown How To](http://assemble.io/docs/Cheatsheet-Markdown.html)
 
