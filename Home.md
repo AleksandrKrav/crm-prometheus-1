@@ -1,4 +1,4 @@
-Обучающий проект «crm-prometheus»
+﻿Обучающий проект «crm-prometheus»
 
 Система для ведения клиентов и сделок для малого бизнеса.
 
@@ -36,7 +36,7 @@
 [Скрипт начального заполнения БД] (https://crm-prometheus.atlassian.net/browse/CRMPROM-159)
 
 ___
-**Wiki editor**
+**Wiki editor1**
 
 [Markdown How To](http://assemble.io/docs/Cheatsheet-Markdown.html)
 
